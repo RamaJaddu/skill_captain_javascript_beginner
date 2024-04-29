@@ -1,0 +1,30 @@
+Assignments:
+
+Please learn how to run the code on your computer.
+
+Running JavaScript code on Windows, macOS, and Linux is relatively straightforward.
+
+Windows
+
+Using Node.js
+- Install Node.js from the official website (https://nodejs.org/).
+- Open the command prompt (search for "cmd" in the Start menu).
+- Type `node` to open the Node.js interactive REPL (Read-Eval-Print Loop) where you can enter and run JavaScript code.
+macOS
+
+Using Terminal and Node.js
+
+- Open the Terminal (search for it using Spotlight or find it in the Applications > Utilities folder).
+- Install Node.js using a package manager like Homebrew (`brew install node`) or download it from the official website.
+- Type `node` to open the Node.js interactive REPL where you can enter and run JavaScript code.
+Linux
+
+Terminal and Node.js
+
+- Open the Terminal from the Applications menu.
+- Install Node.js using a package manager appropriate for your Linux distribution (e.g., `sudo apt-get install nodejs` on Debian-based systems).
+- Type `node` to open the Node.js interactive REPL where you can enter and run JavaScript code.
+
+
+
+https://www.youtube.com/watch?v=06X51c6WHsQ
