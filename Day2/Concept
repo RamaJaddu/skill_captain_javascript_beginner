@@ -1,0 +1,80 @@
+Conditional Statements (if, else) and Loops (for, while)
+
+To Do
+
+Concept:
+
+Conditional Statements (if, else) and Loops (for, while)
+Welcome to Day 2 of our JavaScript Beginner Course! Today, we'll dive into conditional statements and loops, two fundamental concepts in programming that will greatly expand your ability to control the flow of your code. Let's get started!
+Part 1: Conditional Statements
+Conditional statements allow your program to make decisions based on certain conditions. The most basic type of conditional statement is the `if` statement, which executes a block of code if a specified condition is true.
+ 
+if (condition) {
+    // Code to execute if the condition is true
+}
+
+If the condition within the parentheses evaluates to true, the code block within the curly braces will be executed. If the condition is false, the code block will be skipped.
+Here's an example:
+ 
+let age = 18;
+
+if (age >= 18) {
+    console.log("You are eligible to vote!");
+}
+In this example, if the value of `age` is 18 or greater, the message "You are eligible to vote!" will be displayed.
+Else Statement You can provide an alternative code block to execute when the condition is false using the `else` statement.
+ 
+if (condition) {
+    // Code to execute if the condition is true
+} else {
+    // Code to execute if the condition is false
+}
+Here's an example:
+
+
+let weather = "rainy";
+
+if (weather === "rainy") {
+    console.log("Remember to bring an umbrella!");
+} else {
+    console.log("Enjoy the weather!");
+}
+Part 2: Loops (for, while)
+Loops allow you to repeatedly execute a block of code as long as a certain condition is met. There are different types of loops, but we'll focus on the `for` and `while` loops.
+For Loop A `for` loop is used to execute a block of code a specific number of times.
+
+
+for (initialization; condition; increment/decrement) {
+    // Code to be executed in each iteration
+}
+
+Here's an example:
+
+
+
+for (let i = 1; i <= 5; i++) {
+    console.log("Count:", i);
+}
+This loop will output the numbers 1 through 5. While Loop A `while` loop is used to execute a block of code as long as a condition remains true.
+
+
+while (condition) {
+    // Code to be executed as long as the condition is true
+}
+Here's an example:
+
+
+
+let countdown = 5;
+
+while (countdown > 0) {
+    console.log("Countdown:", countdown);
+    countdown--;
+}
+This loop will count down from 5 to 1.
+You've learned how to use conditional statements (`if`, `else`) to make decisions and loops (`for`, `while`) to repeat code. These concepts are crucial for creating dynamic and interactive programs. In the next lesson, we'll explore functions and how they can help you organize and reuse your code. Keep up the great work!
+
+Youtube video
+https://www.youtube.com/watch?v=24Wpg6njlYI
+
+
