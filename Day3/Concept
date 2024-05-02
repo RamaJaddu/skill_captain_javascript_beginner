@@ -1,0 +1,73 @@
+Introduction to Functions and Parameters
+
+To Do
+
+Concept:
+
+Introduction to Functions and Parameters
+Welcome to Day 3 of our JavaScript Beginner Course! In today's lesson, we'll dive into the world of functions. Functions are essential building blocks in programming that allow you to group together a set of instructions and reuse them whenever needed. We'll also explore the concept of parameters, which enable you to make your functions more flexible and versatile. Let's get started!
+Part 1: What are Functions?
+A function in JavaScript is a block of code that performs a specific task. Functions are used to modularize your code, improve readability, and promote reusability. Instead of writing the same code over and over again, you can define a function and call it whenever you need to perform that task.
+
+
+
+function functionName() {
+    // Code to be executed
+}
+
+Here's an example of a simple function that displays a greeting message:
+
+
+
+function greet() {
+    console.log("Hello! Welcome to our website.");
+}
+
+// Call the function
+greet();
+
+Part 2: Function Parameters
+
+Functions can also accept input values, known as parameters, which make them more flexible and adaptable to different scenarios.
+
+
+
+function functionName(parameter1, parameter2) {
+    // Code that uses the parameters
+}
+
+Here's an example of a function that takes two parameters and calculates their sum:
+
+
+
+function addNumbers(a, b) {
+    let sum = a + b;
+    console.log("Sum:", sum);
+}
+
+// Call the function with arguments
+addNumbers(5, 3); // Output: Sum: 8
+```
+
+Part 3: Return Statement
+
+Functions can also return values using the `return` statement. This allows you to capture and use the result of a function in your program.
+
+
+
+function functionName(parameter1, parameter2) {
+    // Code that uses the parameters
+    return result;
+}
+
+Here's an example of a function that calculates the area of a rectangle and returns the result:
+
+
+
+function calculateArea(width, height) {
+    let area = width * height;
+    return area;
+}
+
+let rectangleArea = calculateArea(4, 6);
+console.log("Rectangle Area:", rectangleArea); // Output: Rectangle Area: 24
